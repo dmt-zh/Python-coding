@@ -11,6 +11,5 @@ res = []
 if not len(num) > 1:
     res.append(num[0])
 else:
-    for i in range(len(num)):
-        res.append(num[i - 1] + num[i + 1 - len(num)])
+    [res.append(num[i - 1] + num[i + 1 - len(num)]) for i in range(len(num))]
 print(*res)
