@@ -20,4 +20,3 @@ lst = [i.lower() for i in (filter(None, text))]
 from collections import Counter
 word = Counter(lst).most_common()[:-2:1][0]
 print(word[0], word[1])
-print(lst)
