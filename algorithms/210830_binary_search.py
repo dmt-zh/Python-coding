@@ -18,7 +18,7 @@ def binary_search(lst, item):
         if lst[mid] == item:                                  # проверяем средний эnемент
             return f'Your number is {item}. ' \
                    f'It\'s taken only {cnt} steps. ' \
-                   f'Total list is {len(lst):,} numbers.'     # если совподает, возвращаем элемент и количество шагов алгоритма
+                   f'Total list has {len(lst):,} numbers.'    # если совподает, возвращаем элемент и количество шагов алгоритма
         if lst[mid] > item:                                   # если элемент находится в нижней половине массива
             stop = mid - 1                                    # отбрасываем верхнюю половину массива
         else:
