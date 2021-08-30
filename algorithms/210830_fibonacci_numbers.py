@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
 
 
-# Реализация через математическу формулу:
+# Реализация через математическую формулу
 def fibonacci(num):
     from math import sqrt
     if num <= 1:
