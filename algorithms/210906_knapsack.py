@@ -27,9 +27,9 @@ for item in items:
     if volume < weight:
         sack.append(volume * (cost/weight))
         volume -= volume
+        break
     else:
         sack.append(cost)
         volume -= weight
-        n -= 1
 
 print(f'{sum(sack):.3f}')
