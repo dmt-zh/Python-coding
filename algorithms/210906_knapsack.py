@@ -26,7 +26,6 @@ for item in items:
     cost = item[0]
     if volume < weight:
         sack.append(volume * (cost/weight))
-        volume -= volume
         break
     else:
         sack.append(cost)
