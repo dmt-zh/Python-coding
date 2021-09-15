@@ -24,7 +24,7 @@ def huffman_encoding(data):
     return codes
 
 
-s = 'abcadaba'
+s = input().strip()
 
 out = huffman_encoding(s)
 encoded = ''.join([out[i] for i in s])
