@@ -13,19 +13,11 @@
 n, *arr = list(map(int, input().split()))
 n, *nums = list(map(int, input().split()))
 
-
+import bisect
 def bin_search(arr, num):
-    low = 0
-    high = len(arr) - 1
-
-    while low <= high:
-        mid = (low + high)//2
-        if arr[mid] == num:
-            return mid + 1
-        if arr[mid] > num:
-            high = mid - 1
-        else:
-            low = mid + 1
+    low = bisect.bisect_left(arr, num)
+    if low < len(arr) and arr[low] == num:
+        return low + 1
     return -1
 
 print(*[bin_search(arr, x) for x in nums])
