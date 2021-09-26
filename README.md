@@ -5,7 +5,7 @@
 #### Python coding:
 * [Python programming](https://stepik.org/course/67/info)   -     [Certificate](https://stepik.org/cert/1040039)
 * [Python: basics and applying](https://stepik.org/course/512/info)    -    [Certificate](https://stepik.org/cert/1062721)
-* [Introduction to OOP for Python developers](https://stepik.org/course/86043/info)
+* [Introduction to OOP for Python developers](https://stepik.org/course/86043/info)  -  Without certificate
 
 #### Algorithms and Data Structures:
 * [Algorithms: theory and practice. Methods ](https://stepik.org/course/217/info)   -     [Certificate](https://stepik.org/cert/1097800)
