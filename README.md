@@ -1,7 +1,4 @@
-# Python-coding
-💪 Enhancing Python coding skills
-
-This is the GitHub repository where I save copies of exercises I've completed on taking courses.
+**This is the GitHub repository where I save copies of exercises I've completed on taking courses**
 
 ## Courses:
 
