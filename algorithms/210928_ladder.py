@@ -14,3 +14,12 @@ def ladder(num, arr):
 n = int(input().strip())
 lst = list(map(int, input().split()))
 print(ladder(n, lst))
+
+
+# Вариант без хранения массива
+def ladder(arr):
+    prev, curr = 0, 0
+    for step in arr:
+        last, prev = prev, curr
+        curr = max(last, prev) + step
+    return curr
