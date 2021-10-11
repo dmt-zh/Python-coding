@@ -8,7 +8,9 @@
 * [Introduction to OOP for Python developers](https://stepik.org/course/86043/info)  -  Without certificate
 
 #### Algorithms and Data Structures:
-* [Algorithms: theory and practice. Methods ](https://stepik.org/course/217/info)   -     [Certificate](https://stepik.org/cert/1097800)
+* [Algorithms: theory and practice. Methods](https://stepik.org/course/217/info)   -     [Certificate](https://stepik.org/cert/1097800)
+* [Algorithms: theory and practice. Data structures ](https://stepik.org/course/1547/info)   -     In progress
+
 
 ## Books studided:
 * [Eric Matthes - Python Crash Course](https://books.google.by/books?id=w1v6DwAAQBAJ&printsec=frontcover&dq=Eric+Matthes+-+Python+Crash+Course&hl=ru&sa=X&redir_esc=y#v=onepage&q=Eric%20Matthes%20-%20Python%20Crash%20Course&f=false)
