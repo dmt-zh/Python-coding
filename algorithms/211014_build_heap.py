@@ -38,7 +38,7 @@ arr = list(map(int, input().split()))
 
 res = []
 
-def build_heap(arr, n):
+def build_heap(arr, size):
     for i in range((size-1)//2, -1, -1):
         sift_down(i, size)
 
