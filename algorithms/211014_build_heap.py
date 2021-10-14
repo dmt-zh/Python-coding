@@ -33,13 +33,12 @@
 # 0 2
 # 2 5
 
-n = int(input())
+size = int(input())
 arr = list(map(int, input().split()))
 
 res = []
 
 def build_heap(arr, n):
-    size = n
     for i in range((size-1)//2, -1, -1):
         sift_down(i, size)
 
@@ -53,7 +52,7 @@ def sift_down(i, size):
         max_index = right_child
     if i != max_index:
         arr[i], arr[max_index] = arr[max_index], arr[i]
-        res.append(' '.join([str(i), str(max_index)]))
+        res.append(f'{i} {max_index}')
         sift_down(max_index, size)
 
 build_heap(arr, n)
