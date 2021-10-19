@@ -11,7 +11,7 @@
 
 #### Algorithms and Data Structures:
 * [Algorithms: theory and practice. Methods](https://stepik.org/course/217/info)   -     [Certificate](https://stepik.org/cert/1097800)
-* [Algorithms: theory and practice. Data structures ](https://stepik.org/course/1547/info)   -     In progress
+* [Algorithms: theory and practice. Data structures ](https://stepik.org/course/1547/info)   -    [Certificate](https://stepik.org/cert/1175476)
 
 
 ## Books studided:
