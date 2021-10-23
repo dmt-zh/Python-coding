@@ -6,7 +6,6 @@
 * [Python programming](https://stepik.org/course/67/info)   -     [Certificate](https://stepik.org/cert/1040039)
 * [Python: basics and applying](https://stepik.org/course/512/info)    -    [Certificate](https://stepik.org/cert/1062721)
 * [Introduction to OOP for Python developers](https://stepik.org/course/86043/info)  -  Without certificate
-* [OOP and patterns in Python](https://www.coursera.org/learn/oop-patterns-python?)   -     In progress
 
 
 #### Algorithms and Data Structures:
