@@ -37,7 +37,7 @@
 
 def kaprekar(n):
     x = str(n ** 2)
-    if not x.startswith('10'):
+    if not x.startswith('100'):
         return n in [int(x[:i+1]) + int(x[i+1:]) for i in range(len(x)-1)]
     return False
 
