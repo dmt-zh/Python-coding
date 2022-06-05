@@ -1,3 +1,6 @@
+<img alt="GIF" src="https://media.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif" width="250" height="250"/>
+
+
 **This is the GitHub repository where I save copies of exercises I've completed on taking courses**
 
 ## Courses:
