@@ -45,4 +45,5 @@ for _ in range(T):
         ans = 'No'
     if length > 0 and cubes[-1] > stack[-1]:
         ans = 'No'
+    stack.clear()
     print(ans)
