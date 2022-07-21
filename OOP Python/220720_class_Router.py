@@ -49,21 +49,16 @@
 
 
 class Server:
-    __instance = None
-    __ip = 0
-    def __new__(cls, *args, **kwargs):
-        if cls.__ip < 10**5:
-            cls.__instance = super().__new__(cls)
-            cls.__ip += 1
-        return cls.__instance
+    server_ip = 1
 
     def __init__(self):
         self.buffer = []
-        self.ip = self.__ip
+        self.ip = Server.server_ip
+        Server.server_ip += 1
         self.router = None
 
     def send_data(self, data):
-        if self.router is not None:
+        if self.router:
             self.router.buffer.append(data)
 
     def get_data(self):
@@ -96,7 +91,7 @@ class Router:
         key = server.ip
         if key in self.linked_sevrers:
             self.linked_sevrers.pop(key)
-        pass
+            server.router = None
 
     def send_data(self):
         for data in self.buffer:
@@ -104,7 +99,6 @@ class Router:
             server = self.linked_sevrers.get(server_id, False)
             if server:
                 server.buffer.append(data)
-
         self.buffer.clear()
 
 
