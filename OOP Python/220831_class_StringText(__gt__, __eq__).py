@@ -43,7 +43,7 @@ class StringText:
 
     def __eq__(self, other):
         if self.__valid_types(other):
-            return len(self) == len(oter)
+            return len(self) == len(other)
 
     def __gt__(self, other):
         if self.__valid_types(other):
