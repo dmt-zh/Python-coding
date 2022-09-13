@@ -68,14 +68,16 @@ class Stack:
             self.top = obj
 
     def pop(self):
-        curr_node = self.top
-        prev_node = curr_node
-        while curr_node.next:
-            prev_node, curr_node = curr_node, curr_node.next
-        prev_node.next = None
-        if self.top.next is None:
+        node = self.top
+        if node is None:
+            return
+        if node.next is None:
             self.top = None
-        return curr_node
+        else:
+            while node.next.next is not None:
+                node = node.next
+            node.next = None
+        return node
 
     def get_data(self):
         lst = []
