@@ -83,10 +83,10 @@ class Function:
 
     def __mul__(self, other):
         if type(other) not in (int, float):
-            raise TypeError('смещение должно быть числом')
+            raise TypeError('амплитуда должна быть числом')
 
         obj = self.__class__(self)
-        obj._amplitude = self._amplitude * other
+        obj._amplitude *= other
         return obj
 
 
