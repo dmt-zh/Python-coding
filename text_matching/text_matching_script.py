@@ -72,8 +72,8 @@ class TXTFilesMatching:
 
     def __span_wrapper(self, words_lst1, words_lst2):
         delta = tuple(difflib.Differ().compare(words_lst1, words_lst2))
-        diff_words1 = tuple(i[1:].strip().strip() for i in delta if i.startswith('-'))
-        diff_words2 = tuple(i[1:].strip().strip() for i in delta if i.startswith('+'))
+        diff_words1 = tuple(i[1:].strip() for i in delta if i.startswith('-'))
+        diff_words2 = tuple(i[1:].strip() for i in delta if i.startswith('+'))
 
         s1 = self.__paste_string(words_lst1, diff_words1, '#B03608')
         s2 = self.__paste_string(words_lst2, diff_words2, '#2FB008')
@@ -131,9 +131,9 @@ def main():
         except FileNotFoundError:
             sys.stdout.write('Неверно указаны имена файлов или путь.')
         except:
-            sys.stdout.write('Что-то пошло не так, скрипт аварийно завершился. Проверьте расширение файлов!.')
+            sys.stdout.write('Что-то пошло не так, скрипт аварийно завершился. Допустимые расширения файлов ".txt"!')
     except:
-        print('Скипт запускается через терминал! Для запуска скрипта закомментируйте функцию "main".')
+        sys.stdout.write('Скипт запускается через терминал! Для запуска скрипта закомментируйте функцию "main".')
 
 
 
