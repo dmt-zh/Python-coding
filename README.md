@@ -10,6 +10,7 @@
 * [Python: basics and applying](https://stepik.org/course/512/info)    -    [Certificate](https://stepik.org/cert/1062721)
 * [Introduction to OOP for Python developers](https://stepik.org/course/86043/info)  -  Without certificate
 * [OOP Python - Sergey Balakirev's training course](https://stepik.org/course/116336/info)  -  [Certificate](https://stepik.org/cert/1684234)
+* [Python Regular Expressions](https://stepik.org/course/107335/info)  -  Without certificate
 
 
 #### Algorithms and Data Structures:
