@@ -37,5 +37,5 @@
 
 
 import re
-match = re.findall(r'(<p[^/>]*?>)(.+?)(</p><?)', input())
-print(*[m[1] for m in match], sep='\n')
+match = re.findall(r'<p[^/>]*?>(.+?)</p>', input())
+print(*match, sep='\n')
