@@ -11,3 +11,14 @@
 
 # Примечание 1. Адреса в списках должны располагаться в своем исходном порядке.
 # Примечание 2. Разделителем в файле playgrounds.csv является точка с запятой, при этом кавычки не используются.
+
+
+import csv
+import json
+
+with open('playgrounds.csv', encoding='utf8') as fin, open('addresses.json', 'w', encoding='utf-8') as fout:
+    data = csv.DictReader(fin, delimiter=';')
+    compressed = {}
+    for row in data:
+        compressed.setdefault(row.get('AdmArea'), {}).setdefault(row.get('District'), []).append(row.get('Address'))
+    json.dump(compressed, fout, indent=3, ensure_ascii=False)
