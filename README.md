@@ -12,6 +12,7 @@
 * [OOP Python - Sergey Balakirev's training course](https://stepik.org/course/116336/info)  -  [Certificate](https://stepik.org/cert/1684234)
 * [Python Regular Expressions](https://stepik.org/course/107335/info)  -  [Certificate](https://stepik.org/cert/2013291)
 * [Working with files in Python](https://stepik.org/course/132196/info) - [Certificate](https://stepik.org/cert/1932416)
+* [Regular Expressions in Python](https://stepik.org/course/107335/info) - [Certificate](https://stepik.org/cert/2013291)
 
 
 #### Algorithms and Data Structures:
