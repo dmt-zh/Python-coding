@@ -10,11 +10,10 @@
 * [Python: basics and applying](https://stepik.org/course/512/info)    -    [Certificate](https://stepik.org/cert/1062721)
 * [Introduction to OOP for Python developers](https://stepik.org/course/86043/info)  -  Without certificate
 * [OOP Python - Sergey Balakirev's training course](https://stepik.org/course/116336/info)  -  [Certificate](https://stepik.org/cert/1684234)
-* [Python Regular Expressions](https://stepik.org/course/107335/info)  -  [Certificate](https://stepik.org/cert/2013291)
 * [Working with files in Python](https://stepik.org/course/132196/info) - [Certificate](https://stepik.org/cert/1932416)
 * [Regular Expressions in Python](https://stepik.org/course/107335/info) - [Certificate](https://stepik.org/cert/2013291)
 * [Asynchronous Python](https://stepik.org/course/170777/info) - [Certificate](https://stepik.org/cert/2138700)
-
+* [Generation Python: course for professionals](https://stepik.org/course/82541/info) - [Certificate](https://stepik.org/cert/2283106?lang=en)
 
 #### Algorithms and Data Structures:
 * [Algorithms: theory and practice. Methods](https://stepik.org/course/217/info)   -     [Certificate](https://stepik.org/cert/1097800)
