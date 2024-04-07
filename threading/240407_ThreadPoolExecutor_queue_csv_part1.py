@@ -23,11 +23,11 @@ import requests
 import threading
 from datetime import datetime, timezone
 from dateutil.parser import parse
-from typing import Sequence, Mapping, TypeAlias, Union
+from typing import Sequence, TypeAlias, Union
 
-TickerData: TypeAlias = Union[str, float, datetime]
+TickerData: TypeAlias = Union[Sequence[str], Sequence[float], Sequence[datetime]]
 
-def get_history_data(ticker: str, start_date: str, end_date: str, interval: str = "1wk") -> Mapping[str, Sequence[TickerData]]:
+def get_history_data(ticker: str, start_date: str, end_date: str, interval: str = "1wk") -> TickerData:
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
     params = {
         "period1": int(parse(start_date).replace(tzinfo=timezone.utc).timestamp()),
@@ -48,7 +48,7 @@ def get_history_data(ticker: str, start_date: str, end_date: str, interval: str 
         ]
     except Exception:
         print(f'Failed to get data for {ticker}')
-        result = None
+        raise ValueError
     return result
 
 
@@ -66,7 +66,6 @@ def csv_file_writer() -> None:
 def results_handler(future: concurrent.futures.Future) -> None:
     exception = future.exception()
     if exception is not None:
-        print(f'An error occurred while getting data from Yahoo: {exception}')
         return
     try:
         data = future.result()
