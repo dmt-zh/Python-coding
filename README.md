@@ -15,6 +15,7 @@
 * [Asynchronous Python](https://stepik.org/course/170777/info) - [Certificate](https://stepik.org/cert/2138700)
 * [Generation Python: course for professionals](https://stepik.org/course/82541/info) - [Certificate](https://stepik.org/cert/2283106?lang=en)
 * [Multitasking in Python. Multithreaded programming](https://stepik.org/course/172356/info) - [Certificate](https://stepik.org/cert/2384295?lang=en)
+* [Multiprocessing in Python.](https://stepik.org/course/188951/info) - [Certificate](https://stepik.org/cert/2490313?auth=login&lang=en)
 
 #### Algorithms and Data Structures:
 * [Algorithms: theory and practice. Methods](https://stepik.org/course/217/info)   -     [Certificate](https://stepik.org/cert/1097800)
